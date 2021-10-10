@@ -156,7 +156,8 @@ class ChatAudioListTile extends StatelessWidget {
             CircleAvatar(
               child: IconButton(
                 onPressed: () {},
-                icon: Icon(Icons.play_circle_fill),
+                icon: Icon(
+                    Icons.play_circle_fill), // change to AnimatedIcons later
               ),
             )
           ],
